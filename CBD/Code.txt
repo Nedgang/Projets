@@ -1,0 +1,47 @@
+CREATE DATABASE Hepc_Retro;
+
+CREATE TABLE events_2001 ( SourceId int, SourceLabel varchar(250), SourceEntityType varchar(1), EdgeLabel varchar (250), TargetId varchar(250), TargetLabel varchar(250), TargetEntityType varchar(1), PUBMED_ID varchar(8), nsent int, ntagged_nsent int, nsent_nrelation int, Period varchar(10));
+
+LOAD DATA LOCAL INFILE '/home/david/Documents/Projets/CBD/data_hepcidin/events_2001.txt' INTO TABLE events_2001 FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n';
+
+CREATE TABLE events_2002 ( SourceId int, SourceLabel varchar(250), SourceEntityType varchar(1), EdgeLabel varchar (250), TargetId varchar(250), TargetLabel varchar(250), TargetEntityType varchar(1), PUBMED_ID varchar(8), nsent int, ntagged_nsent int, nsent_nrelation int, Period varchar(10));
+
+LOAD DATA LOCAL INFILE '/home/david/Documents/Projets/CBD/data_hepcidin/events_2002.txt' INTO TABLE events_2002 FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n';
+
+CREATE TABLE events_2003 ( SourceId int, SourceLabel varchar(250), SourceEntityType varchar(1), EdgeLabel varchar (250), TargetId varchar(250), TargetLabel varchar(250), TargetEntityType varchar(1), PUBMED_ID varchar(8), nsent int, ntagged_nsent int, nsent_nrelation int, Period varchar(10));
+
+LOAD DATA LOCAL INFILE '/home/david/Documents/Projets/CBD/data_hepcidin/events_2003.txt' INTO TABLE events_2003 FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n';
+
+CREATE TABLE events_2004 ( SourceId int, SourceLabel varchar(250), SourceEntityType varchar(1), EdgeLabel varchar (250), TargetId varchar(250), TargetLabel varchar(250), TargetEntityType varchar(1), PUBMED_ID varchar(8), nsent int, ntagged_nsent int, nsent_nrelation int, Period varchar(10));
+
+LOAD DATA LOCAL INFILE '/home/david/Documents/Projets/CBD/data_hepcidin/events_2004.txt' INTO TABLE events_2004 FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n';
+
+CREATE TABLE events_2005 ( SourceId int, SourceLabel varchar(250), SourceEntityType varchar(1), EdgeLabel varchar (250), TargetId varchar(250), TargetLabel varchar(250), TargetEntityType varchar(1), PUBMED_ID varchar(8), nsent int, ntagged_nsent int, nsent_nrelation int, Period varchar(10));
+
+LOAD DATA LOCAL INFILE '/home/david/Documents/Projets/CBD/data_hepcidin/events_2005.txt' INTO TABLE events_2005 FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n';
+
+CREATE TABLE events_2006 ( SourceId int, SourceLabel varchar(250), SourceEntityType varchar(1), EdgeLabel varchar (250), TargetId varchar(250), TargetLabel varchar(250), TargetEntityType varchar(1), PUBMED_ID varchar(8), nsent int, ntagged_nsent int, nsent_nrelation int, Period varchar(10));
+
+LOAD DATA LOCAL INFILE '/home/david/Documents/Projets/CBD/data_hepcidin/events_2006.txt' INTO TABLE events_2006 FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n';
+
+CREATE TABLE events_2007 ( SourceId int, SourceLabel varchar(250), SourceEntityType varchar(1), EdgeLabel varchar (250), TargetId varchar(250), TargetLabel varchar(250), TargetEntityType varchar(1), PUBMED_ID varchar(8), nsent int, ntagged_nsent int, nsent_nrelation int, Period varchar(10));
+
+LOAD DATA LOCAL INFILE '/home/david/Documents/Projets/CBD/data_hepcidin/events_2007.txt' INTO TABLE events_2007 FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n';
+
+CREATE TABLE events_2008 ( SourceId int, SourceLabel varchar(250), SourceEntityType varchar(1), EdgeLabel varchar (250), TargetId varchar(250), TargetLabel varchar(250), TargetEntityType varchar(1), PUBMED_ID varchar(8), nsent int, ntagged_nsent int, nsent_nrelation int, Period varchar(10));
+
+LOAD DATA LOCAL INFILE '/home/david/Documents/Projets/CBD/data_hepcidin/events_2008.txt' INTO TABLE events_2008 FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n';
+
+CREATE TABLE events_2009 ( SourceId int, SourceLabel varchar(250), SourceEntityType varchar(1), EdgeLabel varchar (250), TargetId varchar(250), TargetLabel varchar(250), TargetEntityType varchar(1), PUBMED_ID varchar(8), nsent int, ntagged_nsent int, nsent_nrelation int, Period varchar(10));
+
+LOAD DATA LOCAL INFILE '/home/david/Documents/Projets/CBD/data_hepcidin/events_2009.txt' INTO TABLE events_2009 FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n';
+
+CREATE TABLE events_2010 ( SourceId int, SourceLabel varchar(250), SourceEntityType varchar(1), EdgeLabel varchar (250), TargetId varchar(250), TargetLabel varchar(250), TargetEntityType varchar(1), PUBMED_ID varchar(8), nsent int, ntagged_nsent int, nsent_nrelation int, Period varchar(10));
+
+LOAD DATA LOCAL INFILE '/home/david/Documents/Projets/CBD/data_hepcidin/events_2010.txt' INTO TABLE events_2010 FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n';
+
+CREATE TABLE events_2011 ( SourceId int, SourceLabel varchar(250), SourceEntityType varchar(1), EdgeLabel varchar (250), TargetId varchar(250), TargetLabel varchar(250), TargetEntityType varchar(1), PUBMED_ID varchar(8), nsent int, ntagged_nsent int, nsent_nrelation int, Period varchar(10));
+
+LOAD DATA LOCAL INFILE '/home/david/Documents/Projets/CBD/data_hepcidin/events_2011.txt' INTO TABLE events_2011 FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n';
+
+
